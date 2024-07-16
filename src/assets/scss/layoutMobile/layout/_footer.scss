@@ -1,0 +1,26 @@
+.layout-mobile {
+  .footer {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    .list-info {
+      margin-bottom: 20px ;
+      .justify-content-evenly {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+        .list-info-detail {
+          i {
+            min-width: 50px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .footer-text-label {
+      min-height: 20px;
+      white-space: pre-line;
+    }
+
+  }
+}

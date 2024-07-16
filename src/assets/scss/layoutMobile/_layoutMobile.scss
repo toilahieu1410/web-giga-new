@@ -1,0 +1,14 @@
+@import "layout/header";
+@import "layout/content";
+@import "layout/footer";
+@import "layout/mobileNav";
+@import "product/product";
+
+@media screen and (max-width:992px) {
+  .data-item-mobile {
+    display: block !important;
+  }
+  .data-item-desktop {
+    display: none !important;
+  }
+}

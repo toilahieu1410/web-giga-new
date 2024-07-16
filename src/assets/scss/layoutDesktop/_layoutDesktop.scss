@@ -1,0 +1,24 @@
+
+@import "layout/loader";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/error404";
+@import "layout/dropdownHeader";
+
+@import "brand/brand";
+@import 'product/product';
+@import 'product/comment';
+@import 'product/flashsale';
+@import 'product/policy';
+
+@import 'news/news';
+@import 'categories/categories';
+@import 'order/cart';
+@import 'profile/profile';
+
+.data-item-mobile {
+  display: none !important;
+}
+.data-item-desktop {
+  display: block !important;
+}

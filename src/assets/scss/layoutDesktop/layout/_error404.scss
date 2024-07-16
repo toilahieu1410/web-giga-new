@@ -1,0 +1,53 @@
+.error-404-container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 72px auto 64px auto;
+  max-width: 480px;
+  text-align: center;
+  overflow: hidden;
+
+  .error-404-img {
+    max-width: 196px;
+    margin: 0 auto 16px;
+    display: block;
+  }
+  .error-404-title {
+    display: block;
+    font-size: $font-size-default + 8;
+    line-height: 160%;
+    margin-bottom: 20px;
+  }
+  .error-404-btn {
+    color: $color-default !important;
+    font-size: $size-item-header;
+  }
+}
+.error {
+  img {
+    margin: 0 auto;
+  }
+  p {
+    font-size: 16px;
+  }
+  .button-back {
+    a {
+    font-weight: 500;
+    border: 1px solid #8c9ec5;
+    padding: 6px 20px;
+    background-color: #425A8B;
+    color: #fff;
+    &:hover {
+      text-decoration: none;
+      background-color: transparent;
+      color: $color-default;
+    }
+    }
+  }
+  a {
+    margin: 0 auto;
+    &:hover {
+      text-decoration: underline;
+      color: $color-default;
+    }
+  }
+}

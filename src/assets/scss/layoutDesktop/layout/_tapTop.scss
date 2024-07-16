@@ -1,0 +1,29 @@
+.tap-top {
+	text-align: center;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 5;
+	color: #fff !important;
+	background: $color-default;
+	border: none;
+	padding: 7px;
+	box-shadow: 0 0 10px $color-default;
+	opacity: 0.3;
+	justify-content: center;
+   align-items: center;
+   transition: all 0.2s ease-in-out 0s;
+	&:hover {
+      transition: all 0.2s ease-in-out 0s;
+	  opacity: 1;
+	}
+    
+   svg {
+      height: 100%;
+      width: 20px;
+   }
+}

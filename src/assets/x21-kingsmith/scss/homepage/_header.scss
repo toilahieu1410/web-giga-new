@@ -1,0 +1,106 @@
+.header-kingSmith {
+
+  .header-top {
+    background-color: #fff;
+
+    // box-shadow: 0 5px 5px rgba(0,0,0,.07);
+    // position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    height: 50px;
+    .logo {
+      a {
+        display: block;
+        padding-right:30px;
+      }
+    }
+    .nav-header {
+      .nav-list {
+        ul {
+          li {
+            padding-right: 20px;
+            a {
+              text-transform: uppercase;
+              span {
+                height: 50px;
+              }
+            }
+          }
+        }
+      }
+      .list-icon-action {
+        ul {
+          li {
+            a {
+              span {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+   
+    }
+
+  }
+  .list-slider {
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+    background-color: #f8f8f8;
+    .slick-slider {
+      flex: 1;
+      width: 100%;
+      .slick-slide {
+        text-align: center;
+      }
+      .slick-next {
+        font-size: 0;
+        right: 13px;
+        z-index: 100;
+        cursor: pointer;
+        color: #ccc;
+        border: none;
+        &::before {
+          font-size: 12px;
+          font-family: themify;
+          content: "\e649" !important;
+          color: #aaa;
+        }
+      }
+      .slick-prev {
+        font-size: 0;
+        left: auto;
+        right: 52px;
+        z-index: 100;
+        cursor: pointer;
+        color: #ccc;
+        border: none;
+        &::before {
+          font-size: 12px;
+       
+          font-family: themify;
+          content: "\e64a" !important;
+          color: #aaa;
+        }
+      }
+    }
+    .button-action {
+      position: absolute;
+      right: 10px;
+      border: 1px solid #bbb;
+      border-radius: 10px;
+      min-width: 65px;
+      button {
+        line-height: 1;
+        vertical-align: baseline;
+        i {
+          display: inline-block;
+  
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

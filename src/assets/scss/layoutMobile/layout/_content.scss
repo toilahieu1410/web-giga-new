@@ -1,0 +1,206 @@
+.layout-mobile {
+  .data-item-mobile {
+    button.slick-prev {
+      left: 0;
+      z-index: 8;
+      &::before {
+        color: $color-default;
+        z-index: 8;
+        font-size: 24px;
+      }
+    }
+    button.slick-next {
+      right: 0;
+      z-index: 8;
+      &::before {
+        color: $color-default;
+        z-index: 8;
+        font-size: 24px;
+      }
+    }
+  }
+  .compare-list-products {
+    .data-item-mobile {
+      .compare-list-detail {
+        justify-content: space-evenly;
+        display: flex !important;
+        .compare-list-item {
+          margin-bottom: 10px;
+          width: 100% !important;
+          box-shadow: none;
+          // &:nth-child(2n - 1) {
+          //   margin-right: 0 !important;
+          // }
+          .compare-list-item-image {
+          }
+        }
+      }
+      .compare-list-detail-one_product {
+        height: inherit;
+        border-radius: 8px;
+        margin: 0 5px 0 5px;
+        position: relative;
+        border: 1px solid #d5dfe4;
+
+        display: grid;
+        width: 48%;
+        .compare-list-item {
+          margin-bottom: 10px;
+          width: 100% ;
+          box-shadow: none;
+          .compare-list-item-image {
+            img {
+              border-radius: 8px;
+              min-height: 185px;
+            }
+          }
+          .compare-list-item-info {
+            padding: 0 5px 0 5px;
+            p.text-title {
+              text-align: center;
+            }
+            h3 {
+              text-align: center;
+              a {
+                font-size: 1rem !important;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                min-height: 40px;
+                max-height: 55px;
+                display: -webkit-box;
+              }
+            }
+            h4 {
+              text-align: center;
+              span.text-red {
+                display: block;
+                font-size: 1.25rem;
+              }
+              span.text-title {
+                font-size: 0.8rem !important;
+              }
+            }
+          }
+        }
+      
+      }
+    }
+  }
+
+  .carousel-home {
+    margin-top: 0 !important;
+    a {
+      border-radius: 5px;
+      .image-carousel {
+        object-fit: fill;
+        max-height: 40vmin;
+      }
+      .slick-next {
+        right: 0;
+        z-index: 9;
+      }
+      .slick-prev {
+        left: 0;
+        z-index: 9;
+      }
+    }
+  }
+  .list-advertisement {
+    overflow-x: auto;
+    display: block !important;
+    white-space: nowrap;
+    margin-top: 10px;
+    width: 100%;
+    .rounded {
+      display: inline-block;
+    }
+    .image-sub-banner {
+      width: 250px;
+    }
+  }
+  .compare-list-products {
+    .compare-title {
+      .mt-4 {
+        margin-top: 20px !important;
+      }
+    }
+  }
+
+  //content product
+  .compare-list-products {
+    .list-search {
+      ul.list-unstyled {
+        // .sub-list-search {
+        //   top:auto
+        // }
+      }
+      h1 {
+        font-size: $font-size-default;
+        min-width: 110px;
+      }
+    }
+  }
+
+  //dat hang
+  .list-products-item {
+    h5.my-4 {
+      margin-top: 0 !important;
+    }
+    .orderer-info {
+      .ordering-infomation {
+        width: 100% !important;
+        .row {
+          margin-bottom: 10px;
+        }
+      }
+      .col-md-4 {
+        width: 40%;
+      }
+      .col-md-8 {
+        width: 60%;
+      }
+    }
+    table.table {
+      tbody {
+        border-top: 1px solid;
+      }
+    }
+    .total-money {
+      .col-md-6 {
+        width: 50%;
+      }
+    }
+  }
+  .form-order-information {
+  }
+  .padding-product {
+    .bg-transparent {
+      svg {
+        font-size: 20px !important;
+      }
+    }
+  }
+
+  //thank you
+  .thankyou {
+    .col-md-5 {
+      width: 40%;
+    }
+    .col-md-7 {
+      width: 60%;
+    }
+  }
+
+  // lien he chi nhanh
+  .chi-nhanh-content {
+    display: block;
+  }
+  blockquote {
+    line-height: 22px;
+    min-height: 30px;
+    height: auto;
+    text-align: center;
+  }
+}

@@ -1,0 +1,499 @@
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .x21-kingsmith {
+    .body-content {
+      .col-md-8 {
+        width: 60%;
+      }
+      .col-md-4 {
+        width: 40%;
+      }
+    }
+    .list-content {
+      .product-content {
+        .detail-content {
+          .body-content-product,
+          .video-product {
+            .detail-product {
+              .product-title {
+                top: 50px !important;
+                h2 {
+                  font-size: 30px !important;
+                }
+                p {
+                  font-size: 18px !important;
+                  line-height: 25px !important;
+                  margin-top: 20px !important;
+                  color: #404040;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .x21-kingsmith {
+    .header-kingSmith {
+      .nav-header {
+        justify-content: flex-end !important;
+        .nav-list {
+          display: none;
+        }
+      }
+    }
+    .list-content {
+      .sticky-tab__show {
+        display: none !important;
+      }
+      .tab-content {
+        .product-content {
+          .detail-content {
+            .body-content-product,
+            .video-product {
+              .detail-product {
+                .product-title {
+                  top: 20px !important;
+                  h2 {
+                    font-size: 30px !important;
+                  }
+                  p {
+                    font-size: 18px !important;
+                    line-height: 25px !important;
+                    margin-top: 10px !important;
+                    color: #404040;
+                  }
+                }
+                .product_hover {
+                  h2,
+                  p {
+                    width: 90% !important;
+                  }
+                }
+                .product-image {
+                  ul {
+                    li {
+                      h4 {
+                        font-size: 20px;
+                      }
+                    }
+                  }
+                }
+              }
+              .detail-product.sp-8 {
+                .product-title {
+                  h2,
+                  p {
+                    width: 90% !important;
+                  }
+                }
+              }
+              .detail-product.sp-12 {
+                padding: 0 !important;
+                padding-bottom: 20px !important;
+              }
+            }
+          }
+        }
+      }
+      .specification {
+        display: block !important;
+      }
+    }
+    .chi-nhanh .chi-nhanh-content {
+      display: block;
+    }
+    .certified {
+      .title-design {
+        .line-middle {
+          width: 10% !important;
+        }
+        h4 {
+          width: 80% !important;
+          font-size: 28px !important;
+        }
+      }
+      p.w-50 {
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .x21-kingsmith {
+    .list-product-left {
+      .product-content {
+        .list-promotion {
+          .promotion-content {
+            display: block !important;
+          }
+        }
+      }
+    }
+    .hidden-sm {
+      display: block;
+    }
+    .body-content {
+      .left-content {
+        .product-sliders {
+          .slider-child {
+            .slick-prev {
+              left: 0 !important;
+              z-index: 9;
+            }
+            .slick-next {
+              right: 0 !important;
+            }
+          }
+        }
+      }
+      .right-content {
+        margin-top: 15px;
+      }
+    }
+
+    .list-content {
+      margin-top: 15px;
+      .border-tab {
+        flex-flow: nowrap;
+        justify-content: normal !important;
+        .list-tabs {
+          li.nav-item {
+            font-weight: 500;
+            text-transform: uppercase;
+            padding: 0 1rem;
+            font-size: 14px;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            word-break: keep-all;
+            color: #888;
+            white-space: nowrap;
+          }
+        }
+      }
+
+      .border-tab.fixed {
+        display: flex !important;
+        flex-wrap: nowrap;
+        justify-content: normal !important;
+        overflow-x: auto;
+        .list-tabs {
+          li.nav-item {
+            height: 40px;
+            line-height: 37px;
+            a {
+              white-space: nowrap;
+            }
+          }
+        }
+
+        .tab-scroll-controller {
+          display: flex !important;
+          .scroll-left {
+            left: 0;
+            position: absolute;
+            z-index: 9;
+          }
+          .scroll-right {
+            right: 0;
+            position: absolute;
+            z-index: 9;
+          }
+        }
+      }
+
+      .product-content {
+        .detail-content {
+          .body-content-product,
+          .video-product {
+            .detail-product {
+              .product_hover {
+                padding-top: 0 !important;
+                background-color: transparent !important;
+                margin: 15px 0 !important;
+                top: 0 !important;
+                position: relative !important;
+              }
+              .product-title {
+                margin: 15px 0 !important;
+                top: 0 !important;
+                position: relative !important;
+                width: 100% !important;
+                padding-left: 0 !important;
+                text-align: left !important;
+                h2 {
+                  font-size: 24px !important;
+                  color: #000 !important;
+                  width: 90% !important;
+                  margin: 0 auto;
+                }
+                p {
+                  font-size: 16px !important;
+                  line-height: 1.5 !important;
+                  margin-top: 15px !important;
+                  color: #404040 !important;
+                  width: 90% !important;
+                  margin: 0 auto;
+                  span {
+                    font-size: 16px !important;
+                  }
+                }
+              }
+              .product_hover {
+                opacity: 1 !important;
+                h2,
+                p {
+                  color: #000 !important;
+                  width: 90% !important;
+                }
+              }
+              .product-image {
+                margin-top: 30px !important;
+                ul {
+                  li {
+                    h4 {
+                      font-size: 20px;
+                    }
+                  }
+                }
+              }
+            }
+            .detail-product.sp-8 {
+              margin-top: 30px;
+              .product-title {
+                h2,
+                p {
+                  width: 85% !important;
+                  color: #fff !important;
+                }
+              }
+            }
+            .detail-product.sp-9 {
+              .product-title {
+                h2,
+                p {
+                }
+                ul {
+                  li {
+                    min-width: 120px;
+                  }
+                }
+              }
+            }
+            .detail-product.sp-10 {
+              .product-title {
+                right: 0 !important;
+                h2,
+                p {
+                }
+                ul {
+                  li {
+                    min-width: 120px;
+                  }
+                }
+              }
+            }
+            .detail-product.sp-12 {
+              padding: 0 !important;
+              padding-bottom: 20px !important;
+              .product-title {
+                padding-top: 15px !important;
+                h2 {
+                  color: #fff !important;
+                }
+              }
+              .product-image {
+                width: 90% !important;
+                ul {
+                  li {
+                    h4 {
+                      font-size: 16px !important;
+                    }
+                    p {
+                      font-size: 12px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .x21-kingsmith {
+    .body-content {
+      .col-md-8 {
+        width: 50%;
+      }
+      .col-md-4 {
+        width: 50%;
+      }
+    }
+    .list-content {
+      .border-tab {
+        li.nav-item {
+          height: 45px !important;
+          line-height: 42px !important;
+          a {
+            font-size: 14px !important;
+          }
+        }
+      }
+      .list-product-left {
+        .product-content {
+          .list-promotion {
+            .promotion-content {
+              display: grid !important;
+              grid-template-columns: 1fr 1fr;
+            }
+          }
+          .detail-content {
+            .body-content-product,
+            .video-product {
+              .detail-product {
+                .product_hover {
+              
+                }
+                .product-title {
+                  top: 40px;
+                  h2 {
+                    font-size: 30px !important;
+                  }
+                  p {
+                    width: 100% !important;
+                    font-size: 16px !important;
+                    line-height: 25px;
+                    span {
+                 
+                    }
+                  }
+                }
+                .product_hover {
+                  opacity: 1 !important;
+                  h2,
+                  p {
+                    color: #000 !important;
+                    width: 90% !important;
+                  }
+                }
+                .product-image {
+                  margin-top: 30px !important;
+                  ul {
+                    li {
+                      h4 {
+                        font-size: 20px;
+                      }
+                    }
+                  }
+                }
+              }
+              .detail-product.sp-4 {
+                .product-title {
+
+                  h2, p {
+                    width: 100%;
+                   
+                  }
+                }
+              }
+              .detail-product.sp-6 {
+                .product-title {
+                  top: 15%;
+                  width: 45%;
+                  padding-left: 5%;
+                }
+              }
+              .detail-product.sp-8 {
+                .product-title {
+                  h2, p {
+                    width: 100%;
+                   
+                  }
+                }
+              }
+              .detail-product.sp-9 {
+                .product-title {
+                  top: 15%;
+                  width: 45%;
+                  padding-left: 5%;
+                  ul {
+                    li {
+                      p.number {
+                        font-size: 30px;
+                        margin-top: 15px;
+                      }
+                      p {
+                        margin-top: 0;
+                      }
+                    }
+                  }
+                }
+              }
+              .detail-product.sp-10 {
+                .product-title {
+                  top: 15%;
+                  width: 45%;
+                  right: 5%;
+                  ul {
+                    li {
+                      p.number {
+                        font-size: 30px;
+                        margin-top: 15px;
+                      }
+                      p {
+                        margin-top: 0;
+                      }
+                    }
+                  }
+                }
+              }
+              .detail-product.sp-12 {
+                .product-title {
+                  h2, p {
+                    width: 100%;
+                   
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .x21-kingsmith {
+    .list-content {
+      border-tab {
+        li.nav-item {
+          height: 40px !important;
+          line-height: 37px !important;
+          a {
+            font-size: 14px !important;
+          }
+        }
+      }
+    }
+    .list-slider {
+      .slick-arrow {
+        display: none !important;
+      }
+    }
+  }
+}

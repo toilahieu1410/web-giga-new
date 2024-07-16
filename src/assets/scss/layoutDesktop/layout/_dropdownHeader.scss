@@ -1,0 +1,50 @@
+.withAnimation {
+   ul {
+     li {
+      padding-left: $gap +10;
+       z-index: 111;
+      //  position: relative;
+       ul.sub-menu {
+         display: none;
+       }
+     }
+
+     li:hover {
+       background-color: #ececec;
+       ul.sub-menu {
+         display: inline-table;
+         position: absolute;
+         padding-left: 0;
+         left: 101%;
+         top: 0;
+         z-index: 1;
+         background-color: #fff;
+         box-shadow: 0 0px 4px 1px #7777774a !important;
+         min-width: 850px;
+         height:100%;
+         padding-top: 15px;
+         li {
+         
+           text-transform: capitalize;
+           .slick-track {
+             display: flex;
+             margin-right: 30px;
+           }
+           p {
+             line-height: 25px;
+           }
+           .section-submenu {
+             margin-top: $gap;
+             border-top: 1px solid $line-color;
+           }
+         }
+         .position-relative {
+           height: calc(100vh - 56em);
+         }
+       }
+     }
+     .catergory-text-primary {
+       color: $color-default;
+     }
+   }
+ }

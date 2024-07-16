@@ -1,0 +1,18 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+
+Disallow: /chinh-sach/chinh-sach-bao-mat/
+Disallow: /chinh-sach/chinh-sach-bao-hanh/
+Disallow: /chinh-sach/chinh-sach-huy-doi-tra/
+Disallow: /chinh-sach/chinh-sach-hoan-tien/
+
+Disallow: /dich-vu/van-chuyen-lap-dat/
+Disallow: /dich-vu/khieu-nai/
+
+Disallow: /chi-nhanh/ha-noi/
+Disallow: /chi-nhanh/bac-ninh/
+Disallow: /chi-nhanh/hai-phong/
+Disallow: /chi-nhanh/da-nang/
+Disallow: /chi-nhanh/ho-chi-minh/
+
+Sitemap: https://giga.vn/sitemap.xml

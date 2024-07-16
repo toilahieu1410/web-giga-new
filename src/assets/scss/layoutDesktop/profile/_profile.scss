@@ -1,0 +1,62 @@
+.profile {
+  .menu-user {
+    .profile-user-name {
+      font-size: 20px;
+      font-weight: 600;
+      color: $color-default;
+    }
+    ul {
+      li {
+        padding: 5px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        &:hover {
+          background-color: #3590de30;
+        }
+      }
+      .active {
+        background-color: #3590de30;
+      }
+    }
+  }
+  .col-md-9 {
+    .shadow-sm {
+      height: 550px;
+    }
+    
+  }
+  input[type="file"] {
+    display: none;
+  }
+  .custom-file-upload {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 9px 12px;
+    cursor: pointer;
+  }
+  .border-tab.nav-tabs .nav-item .nav-link.active,
+  .border-tab.nav-tabs .nav-item .nav-link.show,
+  .border-tab.nav-tabs .nav-item .nav-link:focus {
+    border-bottom: 2px solid $color-default;
+  }
+  .nav-tabs .nav-link.active,
+  .nav-tabs .nav-item.show .nav-link {
+    color: $color-default !important;
+    border-color: transparent transparent transparent;
+    background-color: transparent;
+  }
+  .nav-tabs .nav-link:hover,
+  .nav-tabs .nav-link:focus {
+    border-color: transparent transparent transparent;
+    isolation: isolate;
+    cursor: pointer;
+  }
+  a {
+    color: #444 !important;
+  }
+  .nav-tabs {
+    border-bottom: 1px solid transparent;
+  }
+}

@@ -1,0 +1,116 @@
+.form-comment {
+  background: #fff 0% 0% no-repeat padding-box;
+  // box-shadow: 0 3px 6px #00000029;
+  border-radius: 5px;
+  padding:  0 30px;
+  min-height: auto;
+  .loading-screen-home-comment {
+    display: none;
+  }
+}
+.form-list-comment {
+  min-height: 500px;
+  background: #fff 0% 0% no-repeat padding-box;
+  // box-shadow: 0 3px 6px #00000029;
+  border-radius: 5px;
+  padding: 20px 30px;
+  .list-comment {
+    .form-reply-comment-child {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .form-reply-comment {
+      margin-left: 0;
+    }
+  }
+
+  .content-comment {
+    .list-comment-content {
+      .flex-comment {
+        border:1px solid $color-border;
+        padding: 15px;
+        border-radius: 4px;
+      }
+      .content-right {
+        p.text-title {
+          font-size: 12px;
+        }
+        div {
+          color: $color-default;
+        }
+        button {
+          background-color: transparent;
+          &:hover {
+            color: $color-default;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .button-send-comment {
+    button {
+      width: 300px;
+      border-radius: $gap + 10;
+    }
+  }
+
+  .list-comment-child {
+    display: block;
+    position: relative;
+    margin-left: 30px;
+    clear: both;
+    color: #333;
+    background: #f8f8f8;
+    border: 1px solid $color-border;
+    border-radius: 4px;
+    .list-comment-child-detail {
+      padding: 5px;
+      border-bottom: 1px solid #ddd;
+      &:last-child {
+        border-bottom: transparent;
+      }
+      .d-flex {
+        margin-left: 45px;
+      }
+      .content-right {
+        p.text-title {
+          text-transform: capitalize;
+          margin-bottom: 10px;
+        }
+      }
+      span {
+        top: 40px;
+        left: 42px;
+        background-color: #0a9712;
+        width: 18px;
+        height: 18px;
+        text-align: center;
+        border-radius: 50%;
+        i {
+          color: #fff;
+          font-size: 10px;
+          top: 0px;
+          position: relative;
+        }
+      }
+    }
+  }
+
+  .list-comment-child-first {
+    background: transparent;
+    border: none;
+  }
+
+  .form-reply-comment {
+    margin-left: 0px;
+  }
+  .content-detail {
+    white-space: pre-line;
+    line-height: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: $color-default;
+  }
+}
